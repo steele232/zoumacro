@@ -26,8 +26,8 @@ import (
 	"go/token"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/reflect"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/steele232/zoumacro/base/reflect"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 func (c *Comp) Add(node *ast.BinaryExpr, xe *Expr, ye *Expr) *Expr {

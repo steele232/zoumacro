@@ -19,7 +19,7 @@ package main
 import (
 	"os"
 
-	"github.com/cosmos72/gomacro/cmd"
+	"github.com/steele232/zoumacro/cmd"
 )
 
 func main() {

@@ -21,10 +21,10 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/parser"
-	"github.com/cosmos72/gomacro/token"
+	. "github.com/steele232/zoumacro/ast2"
+	"github.com/steele232/zoumacro/base/output"
+	"github.com/steele232/zoumacro/parser"
+	"github.com/steele232/zoumacro/token"
 )
 
 func TestToNodes(t *testing.T) {

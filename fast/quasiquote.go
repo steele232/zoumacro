@@ -22,12 +22,12 @@ import (
 	"go/token"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/reflect"
-	mp "github.com/cosmos72/gomacro/parser"
-	mt "github.com/cosmos72/gomacro/token"
+	. "github.com/steele232/zoumacro/ast2"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/output"
+	"github.com/steele232/zoumacro/base/reflect"
+	mp "github.com/steele232/zoumacro/parser"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 var (

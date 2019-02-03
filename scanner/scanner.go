@@ -17,7 +17,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	mt "github.com/cosmos72/gomacro/token"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 // An ErrorHandler may be provided to Scanner.Init. If a syntax error is

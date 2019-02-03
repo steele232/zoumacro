@@ -20,8 +20,8 @@ import (
 	r "reflect"
 	"unsafe"
 
-	. "github.com/cosmos72/gomacro/base"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/steele232/zoumacro/base"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 // varSetValue compiles 'name = value' where value is a reflect.Value passed at runtime.

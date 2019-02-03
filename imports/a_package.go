@@ -19,9 +19,9 @@ package imports
 import (
 	. "reflect"
 
-	go1_11 "github.com/cosmos72/gomacro/imports/go1_11"
-	syscall "github.com/cosmos72/gomacro/imports/syscall"
-	thirdparty "github.com/cosmos72/gomacro/imports/thirdparty"
+	go1_11 "github.com/steele232/zoumacro/imports/go1_11"
+	syscall "github.com/steele232/zoumacro/imports/syscall"
+	thirdparty "github.com/steele232/zoumacro/imports/thirdparty"
 )
 
 type PackageUnderlying = struct { // unnamed
@@ -43,9 +43,9 @@ type PackageMap map[string]Package // named, can have methods
 
 var Packages = make(PackageMap)
 
-// reflection: allow interpreted code to import "github.com/cosmos72/gomacro/imports"
+// reflection: allow interpreted code to import "github.com/steele232/zoumacro/imports"
 func init() {
-	Packages["github.com/cosmos72/gomacro/imports"] = Package{
+	Packages["github.com/steele232/zoumacro/imports"] = Package{
 		Binds: map[string]Value{
 			"Packages": ValueOf(&Packages).Elem(),
 		},

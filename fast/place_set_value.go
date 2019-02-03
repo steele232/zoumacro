@@ -19,8 +19,8 @@ package fast
 import (
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/reflect"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/reflect"
 )
 
 // placeSetValue compiles 'place = value' where value is a reflect.Value passed at runtime.

@@ -20,7 +20,7 @@ const sep = string(os.PathSeparator)
 //
 // to import the current dir; or one like
 //
-//`//go:generate gomacro -g github.com/cosmos72/gomacro/classic`
+//`//go:generate gomacro -g github.com/steele232/zoumacro/classic`
 //
 // to specify the exact import path. The second, specific
 // form, may be necessary if we cannot detect the GOPATH

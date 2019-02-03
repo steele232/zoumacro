@@ -21,7 +21,7 @@ import (
 	"go/token"
 	r "reflect"
 
-	mt "github.com/cosmos72/gomacro/token"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 // ToNode converts Ast back ast.Node, or panics on failure

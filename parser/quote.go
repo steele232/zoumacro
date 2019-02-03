@@ -21,7 +21,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	mt "github.com/cosmos72/gomacro/token"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 // patch: quote and friends

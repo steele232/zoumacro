@@ -20,7 +20,7 @@ import (
 	"go/types"
 	"reflect"
 
-	"github.com/cosmos72/gomacro/typeutil"
+	"github.com/steele232/zoumacro/typeutil"
 )
 
 type depthMap struct {

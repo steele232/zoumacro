@@ -19,8 +19,8 @@ package fast
 import (
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/base"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/steele232/zoumacro/base"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 func (c *Comp) func0ret0(t xr.Type, m *funcMaker) func(env *Env) r.Value {

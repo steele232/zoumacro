@@ -17,7 +17,7 @@
 package jit
 
 import (
-	arch "github.com/cosmos72/gomacro/jit/native"
+	arch "github.com/steele232/zoumacro/jit/native"
 )
 
 type Const struct {

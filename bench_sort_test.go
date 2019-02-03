@@ -20,8 +20,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cosmos72/gomacro/classic"
-	"github.com/cosmos72/gomacro/fast"
+	"github.com/steele232/zoumacro/classic"
+	"github.com/steele232/zoumacro/fast"
 )
 
 var verbosesort = verbose

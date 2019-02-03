@@ -16,7 +16,7 @@ import (
 	"text/tabwriter"
 	"unicode"
 
-	mt "github.com/cosmos72/gomacro/token"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 const (

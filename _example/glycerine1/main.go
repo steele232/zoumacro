@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/cosmos72/gomacro/fast"
-	"github.com/cosmos72/gomacro/imports"
+	"github.com/steele232/zoumacro/fast"
+	"github.com/steele232/zoumacro/imports"
 )
 
 // this example shows how to efficiently share a variable named "x" of a fictional package "github.com/path/y"

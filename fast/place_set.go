@@ -24,8 +24,8 @@ package fast
 import (
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/reflect"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/reflect"
 )
 
 func (c *Comp) placeSetZero(place *Place) {

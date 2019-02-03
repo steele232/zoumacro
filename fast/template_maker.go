@@ -25,9 +25,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/steele232/zoumacro/ast2"
+	"github.com/steele232/zoumacro/base"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 type templateMaker struct {

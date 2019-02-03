@@ -20,7 +20,7 @@ import (
 	"fmt"
 )
 
-// the following constants must match with github.com/cosmos72/gomacro/base/constants.go
+// the following constants must match with github.com/steele232/zoumacro/base/constants.go
 const (
 	StrGensymInterface = "\U0001202A" // name of extra struct field needed by the interpreter when creating interpreted interfaces
 	StrGensymPrivate   = "\U00012038" // prefix to generate names for unexported struct fields.

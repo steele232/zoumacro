@@ -26,7 +26,7 @@ import (
 	r "reflect"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/base/reflect"
+	"github.com/steele232/zoumacro/base/reflect"
 )
 
 func (c *Comp) varShlConst(va *Var, val I) {

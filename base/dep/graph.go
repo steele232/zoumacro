@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"go/token"
 
-	"github.com/cosmos72/gomacro/base/output"
+	"github.com/steele232/zoumacro/base/output"
 )
 
 func (f *fwdDeclList) add(decl *Decl) {

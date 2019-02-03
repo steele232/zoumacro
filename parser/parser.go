@@ -24,8 +24,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/cosmos72/gomacro/scanner"
-	mt "github.com/cosmos72/gomacro/token"
+	"github.com/steele232/zoumacro/scanner"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 // The parser structure holds the parser's internal state.

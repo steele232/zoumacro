@@ -23,10 +23,10 @@ import (
 	r "reflect"
 	"sort"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/paths"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/output"
+	"github.com/steele232/zoumacro/base/paths"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 func (b Builtin) String() string {

@@ -21,14 +21,14 @@ import (
 	r "reflect"
 	"testing"
 
-	"github.com/cosmos72/gomacro/classic"
-	"github.com/cosmos72/gomacro/experiments/bytecode_interfaces"
-	"github.com/cosmos72/gomacro/experiments/bytecode_values"
-	"github.com/cosmos72/gomacro/experiments/closure_interfaces"
-	"github.com/cosmos72/gomacro/experiments/closure_ints"
-	"github.com/cosmos72/gomacro/experiments/closure_maps"
-	"github.com/cosmos72/gomacro/experiments/closure_values"
-	"github.com/cosmos72/gomacro/fast"
+	"github.com/steele232/zoumacro/classic"
+	"github.com/steele232/zoumacro/experiments/bytecode_interfaces"
+	"github.com/steele232/zoumacro/experiments/bytecode_values"
+	"github.com/steele232/zoumacro/experiments/closure_interfaces"
+	"github.com/steele232/zoumacro/experiments/closure_ints"
+	"github.com/steele232/zoumacro/experiments/closure_maps"
+	"github.com/steele232/zoumacro/experiments/closure_values"
+	"github.com/steele232/zoumacro/fast"
 )
 
 var (

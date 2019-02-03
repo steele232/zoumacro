@@ -25,11 +25,11 @@ import (
 	"os"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/base/reflect"
-	"github.com/cosmos72/gomacro/gls"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/paths"
+	"github.com/steele232/zoumacro/base/reflect"
+	"github.com/steele232/zoumacro/gls"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 // Interp is the fast interpreter.

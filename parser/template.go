@@ -20,7 +20,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	mt "github.com/cosmos72/gomacro/token"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 // parse prefix#[T1,T2...] as &ast.IndexExpr{ &ast.CompositeLit{Type: prefix, Elts: [T1, T2...]} }

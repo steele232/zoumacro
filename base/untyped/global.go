@@ -21,8 +21,8 @@ import (
 	"go/constant"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/reflect"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/steele232/zoumacro/base/reflect"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 // untyped kind. matches reflect.Kind except for rune literals, where Kind == reflect.Int32

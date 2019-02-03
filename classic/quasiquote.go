@@ -21,9 +21,9 @@ import (
 	"go/ast"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	. "github.com/cosmos72/gomacro/base"
-	mt "github.com/cosmos72/gomacro/token"
+	. "github.com/steele232/zoumacro/ast2"
+	. "github.com/steele232/zoumacro/base"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 func (env *Env) evalQuote(node *ast.BlockStmt) ast.Node {

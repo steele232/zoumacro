@@ -22,8 +22,8 @@ import (
 	r "reflect"
 	"sort"
 
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/paths"
+	"github.com/steele232/zoumacro/base/output"
+	"github.com/steele232/zoumacro/base/paths"
 )
 
 type TypeVisitor func(name string, t types.Type) bool

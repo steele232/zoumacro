@@ -20,7 +20,7 @@ import (
 	r "reflect"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/base/output"
+	"github.com/steele232/zoumacro/base/output"
 )
 
 func (c *Comp) Resolve(name string) *Symbol {

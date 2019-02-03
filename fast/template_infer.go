@@ -22,8 +22,8 @@ import (
 	"go/token"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/untyped"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/steele232/zoumacro/base/untyped"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 type inferType struct {

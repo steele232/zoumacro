@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/cosmos72/gomacro/base/output"
+	"github.com/steele232/zoumacro/base/output"
 )
 
 // untyped value

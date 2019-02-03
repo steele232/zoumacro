@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/paths"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/paths"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 type Interp struct {

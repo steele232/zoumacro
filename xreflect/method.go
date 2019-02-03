@@ -21,7 +21,7 @@ import (
 	"go/types"
 	"reflect"
 
-	"github.com/cosmos72/gomacro/typeutil"
+	"github.com/steele232/zoumacro/typeutil"
 )
 
 // return detailed string representation of a method signature, including its receiver if present

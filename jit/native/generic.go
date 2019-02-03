@@ -19,7 +19,7 @@
 package arch
 
 import (
-	arch "github.com/cosmos72/gomacro/jit/generic"
+	arch "github.com/steele232/zoumacro/jit/generic"
 )
 
 type (

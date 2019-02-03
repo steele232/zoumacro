@@ -22,10 +22,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cosmos72/gomacro/base/paths"
+	"github.com/steele232/zoumacro/base/paths"
 
-	"github.com/cosmos72/gomacro/base"
-	bstrings "github.com/cosmos72/gomacro/base/strings"
+	"github.com/steele232/zoumacro/base"
+	bstrings "github.com/steele232/zoumacro/base/strings"
 )
 
 // ====================== Cmd ==============================

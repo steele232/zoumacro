@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos72/gomacro/typeutil"
+	"github.com/steele232/zoumacro/typeutil"
 )
 
 var u = NewUniverse()
@@ -485,8 +485,8 @@ func TestFromReflectMutualRecursion(t *testing.T) {
 	is(t, typ2.Name(), "Response4Test")
 	isidenticalgotype(t, typ1.GoType(), typ1_loop.GoType())
 
-	is(t, typ1.gunderlying().String(), "struct{Header map[string]string; Response *github.com/cosmos72/gomacro/xreflect.Response4Test}")
-	is(t, typ2.gunderlying().String(), "struct{HttpStatus int; Request *github.com/cosmos72/gomacro/xreflect.Request4Test}")
+	is(t, typ1.gunderlying().String(), "struct{Header map[string]string; Response *github.com/steele232/zoumacro/xreflect.Response4Test}")
+	is(t, typ2.gunderlying().String(), "struct{HttpStatus int; Request *github.com/steele232/zoumacro/xreflect.Request4Test}")
 }
 
 // test implementing 'io.Reader' interface

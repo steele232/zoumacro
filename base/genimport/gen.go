@@ -25,9 +25,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/base/untyped"
+	"github.com/steele232/zoumacro/base/output"
+	"github.com/steele232/zoumacro/base/paths"
+	"github.com/steele232/zoumacro/base/untyped"
 )
 
 type Output = output.Output
@@ -176,7 +176,7 @@ import (`, alias, gen.path, filepkg)
 
 	var imports string
 	if mode == ImInception {
-		fmt.Fprintf(gen.out, "\n\tr \"reflect\"\n\t\"github.com/cosmos72/gomacro/imports\"")
+		fmt.Fprintf(gen.out, "\n\tr \"reflect\"\n\t\"github.com/steele232/zoumacro/imports\"")
 		imports = "imports."
 	} else {
 		fmt.Fprintf(out, "\n\t. \"reflect\"")

@@ -24,8 +24,8 @@ import (
 	"sort"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/typeutil"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/steele232/zoumacro/typeutil"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 type typecaseEntry struct {

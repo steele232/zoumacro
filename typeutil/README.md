@@ -23,7 +23,7 @@ typeutil contains patched version of some Go utilities to handle `go/types.Type`
 
    So a specialized map is needed to use them as keys - either
    `golang.org/x/tools/go/type/typeutil.Map`, or this patched version
-   `github.com/cosmos72/gomacro/typeutil/Map`, or something analogous
+   `github.com/steele232/zoumacro/typeutil/Map`, or something analogous
 
 They are useful as type canonicalizing tools for the Go interpreter gomacro,
 and not necessarily suitable for other purpouses.

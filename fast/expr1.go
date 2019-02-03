@@ -20,10 +20,10 @@ import (
 	"go/constant"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/reflect"
-	"github.com/cosmos72/gomacro/base/untyped"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/steele232/zoumacro/base/output"
+	"github.com/steele232/zoumacro/base/reflect"
+	"github.com/steele232/zoumacro/base/untyped"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 func (c *Comp) litValue(value I) Lit {

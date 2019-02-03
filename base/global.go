@@ -25,16 +25,16 @@ import (
 	r "reflect"
 	"strings"
 
-	"github.com/cosmos72/gomacro/base/reflect"
+	"github.com/steele232/zoumacro/base/reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base/genimport"
-	"github.com/cosmos72/gomacro/base/output"
-	bstrings "github.com/cosmos72/gomacro/base/strings"
-	"github.com/cosmos72/gomacro/imports"
-	mp "github.com/cosmos72/gomacro/parser"
-	mt "github.com/cosmos72/gomacro/token"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/steele232/zoumacro/ast2"
+	"github.com/steele232/zoumacro/base/genimport"
+	"github.com/steele232/zoumacro/base/output"
+	bstrings "github.com/steele232/zoumacro/base/strings"
+	"github.com/steele232/zoumacro/imports"
+	mp "github.com/steele232/zoumacro/parser"
+	mt "github.com/steele232/zoumacro/token"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 type Output = output.Output

@@ -20,10 +20,10 @@ import (
 	"go/ast"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/ast2"
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/imports"
+	"github.com/steele232/zoumacro/ast2"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/paths"
+	"github.com/steele232/zoumacro/imports"
 )
 
 type ThreadGlobals struct {

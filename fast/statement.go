@@ -22,9 +22,9 @@ import (
 	r "reflect"
 	"sort"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/gls"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/output"
+	"github.com/steele232/zoumacro/gls"
 )
 
 func stmtNop(env *Env) (Stmt, *Env) {

@@ -19,7 +19,7 @@ package reflect
 import (
 	r "reflect"
 
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 type none struct{}

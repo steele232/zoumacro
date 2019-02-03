@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cosmos72/gomacro/printer"
+	"github.com/steele232/zoumacro/printer"
 )
 
 // Dummy test function so that godoc does not use the entire file as example.

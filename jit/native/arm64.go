@@ -19,7 +19,7 @@
 package arch
 
 import (
-	arch "github.com/cosmos72/gomacro/jit/arm64"
+	arch "github.com/steele232/zoumacro/jit/arm64"
 )
 
 type (

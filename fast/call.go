@@ -23,7 +23,7 @@ import (
 	"go/token"
 	r "reflect"
 
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 type Call struct {

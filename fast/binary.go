@@ -22,9 +22,9 @@ import (
 	"go/token"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/reflect"
-	"github.com/cosmos72/gomacro/base/untyped"
-	mt "github.com/cosmos72/gomacro/token"
+	"github.com/steele232/zoumacro/base/reflect"
+	"github.com/steele232/zoumacro/base/untyped"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 func (c *Comp) BinaryExpr(node *ast.BinaryExpr) *Expr {

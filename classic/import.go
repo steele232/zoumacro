@@ -21,7 +21,7 @@ import (
 	r "reflect"
 	"strings"
 
-	bstrings "github.com/cosmos72/gomacro/base/strings"
+	bstrings "github.com/steele232/zoumacro/base/strings"
 )
 
 // eval a single import

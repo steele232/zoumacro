@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/reflect"
-	"github.com/cosmos72/gomacro/base/untyped"
-	"github.com/cosmos72/gomacro/classic"
-	"github.com/cosmos72/gomacro/fast"
-	mp "github.com/cosmos72/gomacro/parser"
-	mt "github.com/cosmos72/gomacro/token"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/steele232/zoumacro/ast2"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/reflect"
+	"github.com/steele232/zoumacro/base/untyped"
+	"github.com/steele232/zoumacro/classic"
+	"github.com/steele232/zoumacro/fast"
+	mp "github.com/steele232/zoumacro/parser"
+	mt "github.com/steele232/zoumacro/token"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 type TestFor int

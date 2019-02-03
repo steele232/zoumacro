@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"go/types"
 
-	"github.com/cosmos72/gomacro/base/paths"
+	"github.com/steele232/zoumacro/base/paths"
 )
 
 type writeTypeOpts int

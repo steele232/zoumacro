@@ -11,7 +11,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	mt "github.com/cosmos72/gomacro/token"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 // A Mode value is a set of flags (or 0).

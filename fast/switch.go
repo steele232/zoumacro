@@ -24,8 +24,8 @@ import (
 	"sort"
 	"time"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/untyped"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/untyped"
 )
 
 type caseEntry struct {

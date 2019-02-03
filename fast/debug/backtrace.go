@@ -17,7 +17,7 @@
 package debug
 
 import (
-	"github.com/cosmos72/gomacro/fast"
+	"github.com/steele232/zoumacro/fast"
 )
 
 func (d *Debugger) Backtrace(arg string) DebugOp {

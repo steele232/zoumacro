@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/cosmos72/gomacro/jit/arch"
+	. "github.com/steele232/zoumacro/jit/arch"
 )
 
 func TestDisasm(t *testing.T) {

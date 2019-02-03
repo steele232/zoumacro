@@ -24,12 +24,12 @@ import (
 	"os"
 	"strings"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/genimport"
-	"github.com/cosmos72/gomacro/base/inspect"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/fast"
-	"github.com/cosmos72/gomacro/fast/debug"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/genimport"
+	"github.com/steele232/zoumacro/base/inspect"
+	"github.com/steele232/zoumacro/base/paths"
+	"github.com/steele232/zoumacro/fast"
+	"github.com/steele232/zoumacro/fast/debug"
 )
 
 type Cmd struct {

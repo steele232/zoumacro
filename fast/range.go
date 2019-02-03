@@ -24,8 +24,8 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/base/reflect"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/steele232/zoumacro/base/reflect"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 type rangeJump struct {

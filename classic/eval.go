@@ -20,9 +20,9 @@ import (
 	"go/ast"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/ast2"
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/reflect"
+	"github.com/steele232/zoumacro/ast2"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/reflect"
 )
 
 func (env *Env) Eval(src interface{}) (r.Value, []r.Value) {

@@ -22,7 +22,7 @@ import (
 	// "runtime/debug"
 	"sync"
 
-	"github.com/cosmos72/gomacro/typeutil"
+	"github.com/steele232/zoumacro/typeutil"
 )
 
 type Types struct {

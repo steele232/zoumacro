@@ -21,8 +21,8 @@ import (
 	"go/constant"
 	"go/token"
 
-	"github.com/cosmos72/gomacro/base"
-	mt "github.com/cosmos72/gomacro/token"
+	"github.com/steele232/zoumacro/base"
+	mt "github.com/steele232/zoumacro/token"
 )
 
 func (c *Comp) UnaryExpr(node *ast.UnaryExpr) *Expr {

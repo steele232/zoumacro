@@ -26,8 +26,8 @@ import (
 	"go/token"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/reflect"
-	. "github.com/cosmos72/gomacro/base"
+	"github.com/steele232/zoumacro/base/reflect"
+	. "github.com/steele232/zoumacro/base"
 )
 
 func (c *Comp) Eql(node *ast.BinaryExpr, xe *Expr, ye *Expr) *Expr {

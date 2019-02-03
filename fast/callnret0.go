@@ -23,7 +23,7 @@ package fast
 
 import (
 	r "reflect"
-	"github.com/cosmos72/gomacro/base/reflect"
+	"github.com/steele232/zoumacro/base/reflect"
 )
 
 func (c *Comp) call0ret0(call *Call, maxdepth int) func(env *Env) {

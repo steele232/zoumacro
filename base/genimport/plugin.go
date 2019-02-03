@@ -21,7 +21,7 @@ import (
 	"os/exec"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/paths"
+	"github.com/steele232/zoumacro/base/paths"
 )
 
 func compilePlugin(o *Output, filepath string, stdout io.Writer, stderr io.Writer) string {

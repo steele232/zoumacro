@@ -21,8 +21,8 @@ import (
 	r "reflect"
 	"unsafe"
 
-	. "github.com/cosmos72/gomacro/base"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/steele232/zoumacro/base"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 // SelectorExpr compiles foo.bar, i.e. read access to methods, struct fields and imported packages

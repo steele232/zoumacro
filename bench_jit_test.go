@@ -21,7 +21,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/experiments/jit"
+	"github.com/steele232/zoumacro/experiments/jit"
 )
 
 func arithJitEmulate(uenv *uint64) {

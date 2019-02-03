@@ -26,25 +26,25 @@ import (
 	"os"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/strings"
+	"github.com/steele232/zoumacro/base/strings"
 
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/base/reflect"
-	"github.com/cosmos72/gomacro/imports"
+	"github.com/steele232/zoumacro/base/output"
+	"github.com/steele232/zoumacro/base/paths"
+	"github.com/steele232/zoumacro/base/reflect"
+	"github.com/steele232/zoumacro/imports"
 )
 
 type ImportMode int
 
 const (
 	// ImBuiltin import mechanism is:
-	// 1. write a file $GOPATH/src/github.com/cosmos72/gomacro/imports/$PKGPATH.go containing a single func init()
+	// 1. write a file $GOPATH/src/github.com/steele232/zoumacro/imports/$PKGPATH.go containing a single func init()
 	//    i.e. *inside* gomacro sources
 	// 2. tell the user to recompile gomacro
 	ImBuiltin ImportMode = iota
 
 	// ImThirdParty import mechanism is the same as ImBuiltin, except that files are created in a thirdparty/ subdirectory:
-	// 1. write a file $GOPATH/src/github.com/cosmos72/gomacro/imports/thirdparty/$PKGPATH.go containing a single func init()
+	// 1. write a file $GOPATH/src/github.com/steele232/zoumacro/imports/thirdparty/$PKGPATH.go containing a single func init()
 	//    i.e. *inside* gomacro sources
 	// 2. tell the user to recompile gomacro
 	ImThirdParty

@@ -49,7 +49,7 @@ Gomacro can be used as:
 	import (
 		"fmt"
 		"reflect"
-		"github.com/cosmos72/gomacro/fast"
+		"github.com/steele232/zoumacro/fast"
 	)
 	func RunGomacro(toeval string) reflect.Value {
 		interp := fast.New()
@@ -61,7 +61,7 @@ Gomacro can be used as:
 		fmt.Println(RunGomacro("1+1"))
 	}
 	```
-  Also, [github issue #13](https://github.com/cosmos72/gomacro/issues/13) explains
+  Also, [github issue #13](https://github.com/steele232/zoumacro/issues/13) explains
   how to have your application's functions, variable, constants and types
   available in the interpreter.
 
@@ -150,7 +150,7 @@ Compared to compiled Go, gomacro supports several extensions:
 * an integrated debugger, see [Debugger](#debugger)
 
 * configurable special commands. Type `:help` at REPL to list them,
-  and see [cmd.go:37](https://github.com/cosmos72/gomacro/blob/master/fast/cmd.go#L37)
+  and see [cmd.go:37](https://github.com/steele232/zoumacro/blob/master/fast/cmd.go#L37)
   for the documentation and API to define new ones.
 
 * untyped constants can be manipulated directly at REPL. Examples:
@@ -266,7 +266,7 @@ $ gomacro
 [greeting message...]
 
 gomacro> import "gonum.org/v1/plot"
-// warning: created file "/home/max/go/src/github.com/cosmos72/gomacro/imports/thirdparty/gonum_org_v1_plot.go", recompile gomacro to use it
+// warning: created file "/home/max/go/src/github.com/steele232/zoumacro/imports/thirdparty/gonum_org_v1_plot.go", recompile gomacro to use it
 ```
 
 Now quit gomacro, recompile and reinstall it:

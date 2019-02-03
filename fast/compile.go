@@ -21,10 +21,10 @@ import (
 	"go/token"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/dep"
-	"github.com/cosmos72/gomacro/gls"
+	. "github.com/steele232/zoumacro/ast2"
+	. "github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/base/dep"
+	"github.com/steele232/zoumacro/gls"
 )
 
 func NewComp(outer *Comp, code *Code) *Comp {

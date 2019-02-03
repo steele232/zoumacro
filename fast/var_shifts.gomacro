@@ -21,7 +21,7 @@ import (
 	r "reflect"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/base/reflect"
+	"github.com/steele232/zoumacro/base/reflect"
 )
 
 :import (

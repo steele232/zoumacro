@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"runtime/debug"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/xreflect"
+	"github.com/steele232/zoumacro/base"
+	"github.com/steele232/zoumacro/xreflect"
 )
 
 func (d *Debugger) Help() {

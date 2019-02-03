@@ -17,11 +17,11 @@
 package fast
 
 import (
-	"github.com/cosmos72/gomacro/base/reflect"
+	"github.com/steele232/zoumacro/base/reflect"
 	"go/ast"
 	r "reflect"
 
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/steele232/zoumacro/xreflect"
 )
 
 // Convert compiles a type conversion expression
