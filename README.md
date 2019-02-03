@@ -1,3 +1,12 @@
+# zoumacro - interactive Go interpreter with Mandarin Chinese Go keywords available using github.com/steele232/zouyu.
+
+## Description of Additions since Forking github.com/cosmos72/gomacro on 2/3/19
+
+- Added the use of Mandarin Chinese Go keywords using ZouYu, maintained by myself as well. This may only apply to the Fast interpreter, which is the one used by default. 
+- Added a couple small changes to the README ("gomacro>" -> "走语>"), but the README is otherwise entirely the same.
+- Left everything else alone, including Licenses and Copyrights, because... I'm not a lawyer so I'm not sure what to do with those yet.
+
+
 ## gomacro - interactive Go interpreter and debugger with generics and macros
 
 gomacro is an almost complete Go interpreter, implemented in pure Go. It offers both
