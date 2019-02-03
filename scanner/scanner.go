@@ -18,6 +18,7 @@ import (
 	"unicode/utf8"
 
 	mt "github.com/steele232/zoumacro/token"
+	zouyu "github.com/steele232/zouyu"
 )
 
 // An ErrorHandler may be provided to Scanner.Init. If a syntax error is
@@ -115,10 +116,16 @@ const (
 // of the file.
 //
 func (s *Scanner) Init(file *mt.File, src []byte, err ErrorHandler, mode Mode, macroChar rune) {
+
+	//Try translating in the init.. See how that goes...
+	srcString := string(src)
+	srcString = zouyu.SearchAndReplaceAll(srcString)
+	src = []byte(srcString)
+
 	// Explicitly initialize all fields since a scanner may be reused.
-	if file.Size() != len(src) {
-		panic(fmt.Sprintf("file size (%d) does not match src len (%d)", file.Size(), len(src)))
-	}
+	// if file.Size() != len(src) {
+	// 	panic(fmt.Sprintf("file size (%d) does not match src len (%d)", file.Size(), len(src)))
+	// }
 	s.file = file
 	s.dir, _ = filepath.Split(file.Name())
 	s.src = src
