@@ -13,12 +13,12 @@ Gomacro can be used as:
     $ gomacro
     [greeting message...]
 
-    gomacro> import "fmt"
-    gomacro> fmt.Println("hello, world!")
+    走语> import "fmt"
+    走语> fmt.Println("hello, world!")
     hello, world!
     14      // int
     <nil>   // error
-    gomacro>
+    走语>
     ```
   press TAB to autocomplete a word, and press it again to cycle on possible completions.
 
@@ -155,9 +155,9 @@ Compared to compiled Go, gomacro supports several extensions:
 
 * untyped constants can be manipulated directly at REPL. Examples:
     ```
-	gomacro> 1<<100
+	走语> 1<<100
 	{int 1267650600228229401496703205376}	// untyped.Lit
-	gomacro> const c = 1<<100; c * c / 100000000000
+	走语> const c = 1<<100; c * c / 100000000000
 	{int 16069380442589902755419620923411626025222029937827}	// untyped.Lit
 	```
   This provides a handy arbitrary-precision calculator.
@@ -241,10 +241,10 @@ $ go get gonum.org/v1/plot
 $ gomacro
 [greeting message...]
 
-gomacro> import "gonum.org/v1/plot"
+走语> import "gonum.org/v1/plot"
 // debug: created file "/home/max/src/gomacro_imports/gonum.org/v1/plot/plot.go"...
 // debug: compiling "/home/max/go/src/gomacro_imports/gonum.org/v1/plot/plot.go" ...
-gomacro> plot.New()
+走语> plot.New()
 &{...} // *plot.Plot
 <nil>  // error
 ```
@@ -265,13 +265,13 @@ $ go get gonum.org/v1/plot
 $ gomacro
 [greeting message...]
 
-gomacro> import "gonum.org/v1/plot"
+走语> import "gonum.org/v1/plot"
 // warning: created file "/home/max/go/src/github.com/steele232/zoumacro/imports/thirdparty/gonum_org_v1_plot.go", recompile gomacro to use it
 ```
 
 Now quit gomacro, recompile and reinstall it:
 ```
-gomacro> :quit
+走语> :quit
 $ go install github.com/cosmos72/gomacro
 ```
 
@@ -280,8 +280,8 @@ Finally restart it. Your import is now linked **inside** gomacro and will work:
 $ gomacro
 [greeting message...]
 
-gomacro> import "gonum.org/v1/plot"
-gomacro> plot.New()
+走语> import "gonum.org/v1/plot"
+走语> plot.New()
 &{...} // *plot.Plot
 <nil>  // error
 ```

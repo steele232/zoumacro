@@ -86,7 +86,7 @@ func NewGlobals() *Globals {
 		Imports:      nil,
 		Declarations: nil,
 		Statements:   nil,
-		Prompt:       "gomacro> ",
+		Prompt:       "走语> ",
 		GensymN:      0,
 		ParserMode:   0,
 		MacroChar:    '~',
