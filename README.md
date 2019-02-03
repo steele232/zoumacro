@@ -3,11 +3,34 @@
 ## Description of Additions since Forking github.com/cosmos72/gomacro on 2/3/19
 
 - Added the use of Mandarin Chinese Go keywords using ZouYu, maintained by myself as well. This may only apply to the Fast interpreter, which is the one used by default. 
-- Added a couple small changes to the README ("gomacro>" -> "走语>"), but the README is otherwise entirely the same.
+- Added a couple small sections to the top of the README, but the README is otherwise entirely the same.
 - Left everything else alone, including Licenses and Copyrights, because... I'm not a lawyer so I'm not sure what to do with those yet.
 
+## Installation
 
-## gomacro - interactive Go interpreter and debugger with generics and macros
+  The command
+  ```
+  go get -u github.com/steele232/zoumacro
+  ```
+  downloads, compiles and installs gomacro and its dependencies
+
+## Usage
+
+* a standalone executable with interactive Go REPL, line editing and code completion:
+  just run `gomacro` from your command line, then type Go code. Example:
+    ```
+    $ zoumacro
+    [greeting message...]
+
+    走语> import "fmt"
+    走语> fmt.Println("hello, world!")
+    hello, world!
+    14      // int
+    <nil>   // error
+    走语>
+    ```
+
+# gomacro - interactive Go interpreter and debugger with generics and macros
 
 gomacro is an almost complete Go interpreter, implemented in pure Go. It offers both
 an interactive REPL and a scripting mode, and does not require a Go toolchain at runtime
@@ -22,12 +45,12 @@ Gomacro can be used as:
     $ gomacro
     [greeting message...]
 
-    走语> import "fmt"
-    走语> fmt.Println("hello, world!")
+    gomacro> import "fmt"
+    gomacro> fmt.Println("hello, world!")
     hello, world!
     14      // int
     <nil>   // error
-    走语>
+    gomacro>
     ```
   press TAB to autocomplete a word, and press it again to cycle on possible completions.
 
@@ -164,9 +187,9 @@ Compared to compiled Go, gomacro supports several extensions:
 
 * untyped constants can be manipulated directly at REPL. Examples:
     ```
-	走语> 1<<100
+	gomacro> 1<<100
 	{int 1267650600228229401496703205376}	// untyped.Lit
-	走语> const c = 1<<100; c * c / 100000000000
+	gomacro> const c = 1<<100; c * c / 100000000000
 	{int 16069380442589902755419620923411626025222029937827}	// untyped.Lit
 	```
   This provides a handy arbitrary-precision calculator.
@@ -250,10 +273,10 @@ $ go get gonum.org/v1/plot
 $ gomacro
 [greeting message...]
 
-走语> import "gonum.org/v1/plot"
+gomacro> import "gonum.org/v1/plot"
 // debug: created file "/home/max/src/gomacro_imports/gonum.org/v1/plot/plot.go"...
 // debug: compiling "/home/max/go/src/gomacro_imports/gonum.org/v1/plot/plot.go" ...
-走语> plot.New()
+gomacro> plot.New()
 &{...} // *plot.Plot
 <nil>  // error
 ```
@@ -274,13 +297,13 @@ $ go get gonum.org/v1/plot
 $ gomacro
 [greeting message...]
 
-走语> import "gonum.org/v1/plot"
+gomacro> import "gonum.org/v1/plot"
 // warning: created file "/home/max/go/src/github.com/steele232/zoumacro/imports/thirdparty/gonum_org_v1_plot.go", recompile gomacro to use it
 ```
 
 Now quit gomacro, recompile and reinstall it:
 ```
-走语> :quit
+gomacro> :quit
 $ go install github.com/cosmos72/gomacro
 ```
 
@@ -289,8 +312,8 @@ Finally restart it. Your import is now linked **inside** gomacro and will work:
 $ gomacro
 [greeting message...]
 
-走语> import "gonum.org/v1/plot"
-走语> plot.New()
+gomacro> import "gonum.org/v1/plot"
+gomacro> plot.New()
 &{...} // *plot.Plot
 <nil>  // error
 ```
